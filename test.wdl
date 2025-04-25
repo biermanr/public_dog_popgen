@@ -27,6 +27,7 @@ task TestTask {
     echo "This is a test of WDL on Terra." >> test.txt
     echo "This is a second line." >> test.txt
     echo "To see if terra automatically updates the workflow." >> test.txt
+    echo "One more line" >> test.txt
   >>>
 
   output {
