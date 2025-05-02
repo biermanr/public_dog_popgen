@@ -4,7 +4,7 @@ version 1.0
 
 workflow PCAWorkflow {
   input {
-    String input_string
+    String pca_input_string
   }
 
   call TestTask {
