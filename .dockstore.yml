@@ -2,14 +2,5 @@ version: 1.2
 workflows:
   - subclass: WDL
     primaryDescriptorPath: /test.wdl
-    readMePath: /README.md
-    testParameterFiles:
-    name: test
-    authors:
-     - name: Aaron Pfennig
-       email: apennig@princeton.edu
-     - name: Rob Bierman
-       email: rbierman@princeton.edu
-     - name: Michelle White
-       email: mwhite@broadinstitute.org
-    topic: Test Workflow to get WDL working on Terra with Dockstore
+  - subclass: WDL
+    primaryDescriptorPath: /pca.wdl

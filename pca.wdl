@@ -2,7 +2,7 @@ version 1.0
 
 # Test workflow for getting started with WDL on Terra
 
-workflow TestWorkflow {
+workflow PCAWorkflow {
   input {
     String input_string
   }
@@ -23,12 +23,8 @@ task TestTask {
   }
 
   command <<<
-    echo "Hello, ~{input_string}!" > test.txt
-    echo "This is a test of WDL on Terra." >> test.txt
-    echo "This is a second line." >> test.txt
-    echo "To see if terra automatically updates the workflow." >> test.txt
-    echo "One more line" >> test.txt
-    echo "Ok just one more" >> test.txt
+    echo "Hello, ~{input_string}!" > pca_test.txt
+    echo "This is a PCA test of WDL on Terra." >> test.txt
   >>>
 
   output {
