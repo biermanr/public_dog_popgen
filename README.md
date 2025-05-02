@@ -3,7 +3,7 @@ Dog popgen
 
 ### To update a WDL workflow (after already added, see below)
 1. Edit the workflow such as `pca.wdl` then `git add`/`git push`
-2. Go to Terra and run the workflow, it should be updated
+2. Go to Terra and run the workflow, it should be updated after 2-5 minutes (?)
 
 ### To create a new WDL workflow
 1. Make the .wdl file, such as `pca.wdl`
