@@ -9,7 +9,7 @@ workflow PCAWorkflow {
 
   call TestTask {
     input:
-      input_string = input_string
+      input_string = pca_input_string
   }
 
   output {
