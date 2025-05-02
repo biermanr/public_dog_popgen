@@ -9,6 +9,7 @@ if the current `.dokstore.yml` looks like:
 version: 1.2
 workflows:
   - subclass: WDL
+    name: test
     primaryDescriptorPath: /test.wdl
 ```
 
@@ -17,9 +18,13 @@ then add the following lines:
 version: 1.2
 workflows:
   - subclass: WDL
+    name: test
     primaryDescriptorPath: /test.wdl
   - subclass: WDL
+    name: pca
     primaryDescriptorPath: /pca.wdl
 ```
 
 3. Then `git add` and `git push` the changes
+
+4. Go to Dockstore
